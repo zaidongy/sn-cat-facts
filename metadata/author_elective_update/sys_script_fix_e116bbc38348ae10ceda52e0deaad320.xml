@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_script_fix action="DELETE">
+    <sys_id>e116bbc38348ae10ceda52e0deaad320</sys_id>
+    <sys_scope display_value="x_820676_cat_facts">9d3935328388aa10ceda52e0deaad39c</sys_scope>
+    <before>false</before>
+    <name>logging test</name>
+    <record_for_rollback>true</record_for_rollback>
+    <script><![CDATA[let a = "hello world, fluent testing"
+gs.info(a);]]></script>
+    <sys_name>logging test</sys_name>
+    <unloadable>false</unloadable>
+  </sys_script_fix>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cat Facts">9d3935328388aa10ceda52e0deaad39c</application>
+        <file_path/>
+        <instance_id>08b6e08bdb9a7994ba7f684e139619a7</instance_id>
+        <instance_name>dev208548</instance_name>
+        <name>sys_script_fix_e116bbc38348ae10ceda52e0deaad320</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
+  &lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;
+    &lt;sys_id&gt;e116bbc38348ae10ceda52e0deaad320&lt;/sys_id&gt;
+    &lt;sys_scope display_value="x_820676_cat_facts"&gt;9d3935328388aa10ceda52e0deaad39c&lt;/sys_scope&gt;
+    &lt;before&gt;false&lt;/before&gt;
+    &lt;name&gt;logging test&lt;/name&gt;
+    &lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;
+    &lt;script&gt;&lt;![CDATA[let a = "hello world, fluent testing"
+gs.info(a);]]&gt;&lt;/script&gt;
+    &lt;sys_name&gt;logging test&lt;/sys_name&gt;
+    &lt;unloadable&gt;false&lt;/unloadable&gt;
+  &lt;/sys_script_fix&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>63570562</payload_hash>
+        <record_name>logging test</record_name>
+        <reverted_from/>
+        <source>4fcff4e483edea50ceda52e0deaad352</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 04:19:53</sys_created_on>
+        <sys_id>03cff4e483edea50ceda52e0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c7deda280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 04:19:53</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>cbcff4e4e9edea50fcacd5396e3a0f5b</update_guid>
+        <update_guid_history>cbcff4e4e9edea50fcacd5396e3a0f5b:0,ca4fa468212dea506d0981561a20a8bd:0,33beace4d72dea502a161fb9c8a0264e:0,ee363bc36048ae104820d361fc8cb381:2047299442,7b26bbc3f148ae10633dd8583e6d9d29:-1927425045,a5263bc3af48ae10a64f4d1d61ba87af:128745941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 17:07:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>8e028831db2c48afbcef9f534a764591</sys_id>
+        <sys_metadata>e116bbc38348ae10ceda52e0deaad320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>logging test</sys_name>
+        <sys_package display_value="Cat Facts" source="x_820676_cat_facts">9d3935328388aa10ceda52e0deaad39c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cat Facts">9d3935328388aa10ceda52e0deaad39c</sys_scope>
+        <sys_scope_delete display_value="">2bc809d4c3ce49bb909650a095fa20e1</sys_scope_delete>
+        <sys_update_name>sys_script_fix_e116bbc38348ae10ceda52e0deaad320</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_e116bbc38348ae10ceda52e0deaad320">03cff4e483edea50ceda52e0deaad35c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 17:07:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
